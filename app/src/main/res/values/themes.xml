@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Socialize" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#FDF7E4</item>
+        <item name="colorOnPrimary">#FAEED1</item>
+        <item name="colorSecondary">#DED0B6</item>
+        <item name="colorOnSecondary">#BBAB8C</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+
+    <style name="Theme.Socialize" parent="Base.Theme.Socialize" />
+</resources>

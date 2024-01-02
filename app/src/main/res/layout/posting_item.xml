@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/d"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="30">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/lol"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="29"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:text="username-pemosting"
+            android:id="@+id/username_pemosting"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/tugu"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/postingan"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="caption"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:id="@+id/caption"/>
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingLeft="10dp"
+        android:text="lorem ipsum dolor apalah itu"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="12">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubah"
+            android:id="@+id/btn_ubah"
+            android:textColor="@color/black"
+            android:background="@drawable/edit_button"
+            android:layout_weight="6"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hapus"
+            android:id="@+id/btn_hapus"
+            android:textColor="@color/black"
+            android:background="@drawable/edit_button"
+            android:layout_weight="6"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
